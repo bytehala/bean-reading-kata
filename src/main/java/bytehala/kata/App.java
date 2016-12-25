@@ -6,7 +6,7 @@ package bytehala.kata;
  */
 public class App {
     public static void main( String[] args ) {
-        String fileName = "beanbag.csv"
+        String fileName = "beanbag.csv";
         System.out.println( "Divesting file: " + fileName );
         // TODO Pass the fileName to the divester class
     }
