@@ -1,0 +1,20 @@
+<beanio xmlns="http://www.beanio.org/2012/03">
+
+  <!-- 'format' identifies the type of stream -->
+  <stream name="pointcards" format="csv">
+    <record name="header" class="map">
+      <!-- 'rid' indicates this field is used to identify the record -->
+      <field name="recordType" rid="true" literal="H" />
+      <field name="fileDate" type="string" />
+    </record>
+
+    <record name="pointcard" class="bytehala.kata.models.PointCard">
+      <!-- 'ignore' indicates this field is not bound to a bean property -->
+      <field name="recordType" rid="true" literal="D" ignore="true" />
+      <field name="serialNumber" />
+      <field name="numPoints" />
+      <field name="countryAlpha2Code" />
+    </record>
+
+  </stream>
+</beanio>
