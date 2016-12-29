@@ -5,6 +5,8 @@ public final class PointCard {
   int numPoints;
   String countryAlpha2Code;
 
+  private boolean isDuplicated;
+
   public void setSerialNumber(String serialNumber) {
     this.serialNumber = serialNumber;
   }
@@ -27,5 +29,13 @@ public final class PointCard {
 
   public String getCountryAlpha2Code() {
     return countryAlpha2Code;
+  }
+
+  public void setDuplicated(boolean v) {
+    isDuplicated = v;
+  }
+
+  public boolean isDuplicated() {
+    return isDuplicated;
   }
 }
