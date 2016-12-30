@@ -6,6 +6,10 @@ You are a newly hired programmer to a company that sells point cards.
 
 When you were interviewing, the hiring manager said that you will be doing unit tests on this role.
 
+On your first day, you found out that they don't know about xUnit frameworks, and by "unit testing" they meant manual tests that programmers do before submitting the code to the Testing Department.
+
+You asked your team's lead if this was a joke, but they just glared at you like you were trying to show off and one up them on your first week.
+
 ## Your Task
 Figure out what the program is doing, and get the PointCardReader class in a test harness.
 
