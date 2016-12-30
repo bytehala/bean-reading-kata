@@ -19,6 +19,8 @@ public class PointCardReader {
 
   public void start() {
     List<PointCard> pointCards = readFile(new File(fileName));
+    // The pointCards are then sent to a web service for validation
+    // But that is a different refactoring kata.
   }
 
   private List<PointCard> readFile(File file) {
